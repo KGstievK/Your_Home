@@ -5,13 +5,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		<title>Твой Дом</title>
+		<link rel="shortcut icon" href="assets/media/img/content/logo.svg" type="image/x-icon" />
 		<link rel="stylesheet" href="assets/css/splide-core.min.css" />
 		<link rel="stylesheet" href="assets/css/splide.min.css" />
 		<link rel="stylesheet" href="style.css" />
 		<title>Document</title>
 	</head>
 	<body>
-		<header class="page">
+		<header>
 			<div class="wrapper">
 				<div class="container">
 					<div class="top_header">
@@ -92,8 +95,8 @@
 					<div class="bottom-header">
 						<div class="header_menu">
 							<div class="menu_catalog">
-								<button class="page-all-category-btn">
-									<img src="assets/media/img/icon/catalog-black.svg" alt="Каталог Двой дом" />
+								<button>
+									<img src="assets/media/img/icon/catalog.svg" alt="Каталог Двой дом" />
 									<span>Каталог</span>
 								</button>
 								<nav class="catalog-menu">
@@ -178,83 +181,195 @@
 										<li><a href="#">Аренда инструментов</a></li>
 									</ul>
 								</nav>
+								<div class="main_slider">
+									<section class="home_slider splide">
+										<div class="splide__track">
+											<ul class="splide__list">
+												<li class="splide__slide">
+													<div class="slide-card">
+														<div class="img">
+															<img src="assets/media/img/content/main-slide.png" alt="" />
+														</div>
+														<div class="content">
+															<div class="slide_text">
+																<h2>Все что нужно для строительство</h2>
+																<p>Доставка по городу бесплатно</p>
+															</div>
+															<div class="slide_button">
+																<a href="#">Перейти</a>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class="splide__slide">
+													<div class="slide-card">
+														<div class="img">
+															<img src="assets/media/img/content/main-slide.png" alt="" />
+														</div>
+														<div class="content">
+															<div class="slide_text">
+																<h2>Аренда инструментов</h2>
+																<p>арендуйте у нас инструменты по выгодным ценам</p>
+															</div>
+															<div class="slide_button">
+																<a href="#">Перейти</a>
+															</div>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</section>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</header>
-		<section class="breadcurms">
-			<div class="wrapper">
-				<div class="container">
-					<a href="index.html">Главная</a>
-					<span>/</span>
-					<span>Корзина</span>
-				</div>
-			</div>
-		</section>
-		<section class="cart">
+
+		<section id="page">
 			<div class="container">
-				<div class="cart">
-					<div class="cart_product">
-						<div class="cart_title">
-							<p>Товар</p>
-							<p>Количество</p>
-							<p>Сумма</p>
+				<div class="modal">
+					<h2>Поделиться товаром</h2>
+					<div class="social">
+						<img src="./assets/Tiktok.svg" alt="tiktok" />
+						<img src="./assets/Telegram.svg" alt="telegram" />
+						<img src="./assets/Facebook.svg" alt="facebook" />
+						<img src="./assets/Whatsapp.svg" alt="whatsapp" />
+						<img src="./assets/Instagram.svg" alt="instagram" />
+					</div>
+					<button>
+						<img src="./assets/Vector (3).svg" alt="link" />
+						<p>Скопировать ссылку</p>
+					</button>
+				</div>
+				<div class="wrapper">
+					<p>Главная</p>
+					<img src="../assets/Vector (8).svg" alt="arrow" />
+					<p>Вентиляция</p>
+					<img src="../assets/Vector (8).svg" alt="arrow" />
+					<p>Вентиляторы</p>
+					<img src="../assets/img/icon/Vector (8).svg" alt="arrow" />
+					<p>Вентилятор осевой канальный ЭРА E 125 S</p>
+				</div>
+				<div class="page">
+					<div class="page-product">
+						<div class="image">
+							<div class="swiper">
+								<swiper-container class="swiper" loop="true" init="false" data-swiper-autoplay="1000">
+									<swiper-slide>
+										<img src="./assets/Telegram.svg" alt="" />
+									</swiper-slide>
+									<swiper-slide>
+										<img src="./assets/image.png" alt="" />
+									</swiper-slide>
+									<swiper-slide>
+										<img src="./assets/image.png" alt="" />
+									</swiper-slide>
+								</swiper-container>
+								<div class="buttons">
+									<button class="swiper-button-prev">
+										<img src="./assets/ep_right.svg" alt="left" />
+									</button>
+									<button class="right swiper-button-next">
+										<img src="./assets/ep_right.svg" alt="right" />
+									</button>
+								</div>
+							</div>
 						</div>
-						<div class="product">
-							<img src="./assets/Rectangle 51.png" alt="" />
-							<div class="name_price">
-								<p>Вентилятор осевой канальный ЭРА E 125 S</p>
-								<p>704 c</p>
+						<div class="about">
+							<div class="name">
+								<h3>Вентилятор осевой канальный ЭРА E 125 S</h3>
+								<div id="modal">
+									<img src="./assets/basil_share-outline.svg" alt="Share" />
+								</div>
 							</div>
-							<div class="count">
-								<button>-</button>
-								<p>1</p>
-								<button>+</button>
+							<div class="info">
+								<div>
+									<h4>Бренд</h4>
+									<p>VEX</p>
+								</div>
+								<div>
+									<h4>Тип товара</h4>
+									<p>Вентилятор</p>
+								</div>
+								<div>
+									<h4>Производитель</h4>
+									<p>Франция , Италия</p>
+								</div>
+								<div>
+									<h4>Ширина</h4>
+									<p>35см</p>
+								</div>
+								<div>
+									<h4>Высота</h4>
+									<p>35см</p>
+								</div>
 							</div>
-							<h2>352 c</h2>
-						</div>
-						<div class="product">
-							<img src="./assets/Rectangle 51.png" alt="" />
-							<div class="name_price">
-								<p>Вентилятор осевой канальный ЭРА E 125 S</p>
-								<p>352 c</p>
+							<div class="sizes">
+								<div class="outside">Размеры</div>
+								<button>100x100</button>
+								<button>50x50</button>
+								<button>45x45</button>
+								<button>120x120</button>
+								<button>80x80</button>
 							</div>
-							<div class="count">
-								<button>-</button>
-								<p>1</p>
-								<button>+</button>
+							<div class="sizes">
+								<div class="outside">Цвета</div>
+								<div class="color green"></div>
+								<div class="color yellow"></div>
+								<div class="color red"></div>
+								<div class="color blue"></div>
 							</div>
-							<h2>352 c</h2>
+							<h3 class="price">250c - 445c</h3>
+							<div class="buttons">
+								<div class="counter">
+									<button>-</button>
+									<p>2</p>
+									<button>+</button>
+								</div>
+								<button class="green">
+									<img src="./assets/basil_shopping-basket-outline.svg" alt="Basket" />
+									<p>В корзину</p>
+								</button>
+								<button class="green">
+									<img src="./assets/Vector (1).svg" alt="WhatsApp" />
+									<p>Заказать по WhatsApp</p>
+								</button>
+							</div>
 						</div>
 					</div>
-					<div class="result">
-						<h4>Итого</h4>
-						<div class="amount">
-							<p>Сумма</p>
-							<h4>1056с</h4>
+					<div class="page-description">
+						<div class="about">
+							<h3>Описание</h3>
+							<p>Lorem ipsum dolor sit amet consectetur. Suspendisse malesuada ac purus varius elementum ornare vitae. Euismod amet venenatis amet etiam donec ante quis elementum orci. Ultrices sagittis nunc consequat nibh gravida in. Sed convallis adipiscing integer ultricies enim sagittis. Etiam tristique lacus consectetur molestie posuere in nullam nisl vitae. Auctor consequat praesent tincidunt sit odio facilisis ornare vitae nulla.</p>
+							<p>Lorem ipsum dolor sit amet consectetur. Suspendisse malesuada ac purus varius elementum ornare vitae. Euismod amet venenatis amet etiam donec ante quis elementum orci. Ultrices sagittis nunc consequat nibh gravida in. Sed convallis adipiscing integer ultricies enim sagittis. Etiam tristique lacus consectetur molestie posuere in nullam nisl vitae. Auctor consequat praesent tincidunt sit odio facilisis ornare vitae nulla.</p>
+							<p>Lorem ipsum dolor sit amet consectetur. Suspendisse malesuada ac purus varius elementum ornare vitae. Euismod amet venenatis amet etiam donec ante quis elementum orci. Ultrices sagittis nunc consequat nibh gravida in. Sed convallis adipiscing integer ultricies enim sagittis. Etiam tristique lacus consectetur molestie posuere in nullam nisl vitae. Auctor consequat praesent tincidunt sit odio facilisis ornare vitae nulla.</p>
 						</div>
-						<div class="delivery">
-							<p>Доставка</p>
-							<div class="rafio">
-								<label for="delivery">
-									<input id="delivery" type="radio" name="rafio" />
-									<p>Доставка до дома</p>
-								</label>
-								<label for="pickup">
-									<input id="pickup" type="radio" name="rafio" />
-									<p>Самовызов</p>
-								</label>
+						<div class="review">
+							<h3>Отзывы</h3>
+							<p class="p">Пока нет отзывов</p>
+							<div class="star">
+								<img src="./assets/Vector (2).svg" alt="star" />
+								<img src="./assets/Vector (2).svg" alt="star" />
+								<img src="./assets/Vector (2).svg" alt="star" />
+								<img src="./assets/Vector (2).svg" alt="star" />
+								<img src="./assets/Vector (2).svg" alt="star" />
+								<p>Ваш рейтинг</p>
 							</div>
+							<div class="inputs">
+								<textarea placeholder="Ваш отзыв"></textarea>
+								<input type="text" placeholder="Ваше имя" />
+								<input type="text" placeholder="Ваша почта" />
+							</div>
+							<button>Оставить отзыв</button>
 						</div>
-						<button>
-							<a href="./checkout.html"> Перейти к оформлению </a>
-						</button>
 					</div>
 				</div>
 			</div>
 		</section>
+
 		<footer>
 			<div class="wrapper">
 				<div class="container">
@@ -328,5 +443,7 @@
 				</div>
 			</div>
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+		<script src="page.js"></script>
 	</body>
 </html>

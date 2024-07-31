@@ -1,2125 +1,1719 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Твой Дом</title>
-    <link
-      rel="shortcut icon"
-      href="assets/media/img/content/logo.svg"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="assets/css/splide-core.min.css" />
-    <link rel="stylesheet" href="assets/css/splide.min.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Твой Дом</title>
+		<link rel="shortcut icon" href="assets/media/img/content/logo.svg" type="image/x-icon" />
+		<link rel="stylesheet" href="assets/css/splide-core.min.css" />
+		<link rel="stylesheet" href="assets/css/splide.min.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
 
-  <body>
-    <header>
-      <div class="wrapper">
-        <div class="container">
-          <div class="top_header">
-            <div class="top_header__left">
-              <div class="icon">
-                <img src="assets/media/img/icon/pin.svg" alt="" />
-              </div>
-              <div class="country_list">
-                <select name="top_header_country" id="">
-                  <option value="">Бишкек</option>
-                  <option value="">Нарын</option>
-                  <option value="">Талас</option>
-                </select>
-              </div>
-            </div>
-            <div class="header_logo">
-              <a href="index.html">
-                <img src="assets/media/img/content/logo.svg" alt="Tvoi Dom" />
-              </a>
-            </div>
-            <div class="favorite-card-menu">
-              <a href="favorite.php">
-                <img src="assets/media/img/icon/favorite.svg" alt="" />
-                <span>Избранное</span>
-              </a>
-              <a href="cart.html">
-                <img src="assets/media/img/icon/cart.svg" alt="" />
-                <span>Карзина</span>
-              </a>
-              <button class="menu_btn">
-                <img src="assets/media/img/icon/menu.svg" alt="" />
-                <span>Меню</span>
-              </button>
-            </div>
-            <div class="top_header__right">
-              <a href="#"> г.Кара-Балта ул. Ленина 32 </a>
-              <a href="mailto:info@tvoibom.kg"> info@tvoibom.kg </a>
-              <a href="tel:"> +996(505)32-32-32 </a>
-              <a href="#">Остались вопросы?</a>
-            </div>
-          </div>
-          <div class="header">
-            <div class="header_logo">
-              <a href="index.html">
-                <img src="assets/media/img/content/logo.svg" alt="Tvoi Dom" />
-                <p>
-                  Все для строительства и отделки: аренда инструмента,
-                  качественные стройматериалы и сантехника для вашего проекта.
-                </p>
-              </a>
-            </div>
-            <div class="right-block">
-              <button>
-                <img
-                  src="assets/media/img/icon/catalog.svg"
-                  alt="Каталог Двой дом"
-                />
-                <span>Каталог</span>
-              </button>
-              <div class="header-search">
-                <form action="">
-                  <input
-                    type="search"
-                    class="header_search_field"
-                    placeholder="Напиши названия товара"
-                  />
-                  <button>
-                    <img src="assets/media/img/icon/search.svg" alt="" />
-                  </button>
-                </form>
-              </div>
-              <div class="favorite-card-menu">
-                <a href="favorite.php">
-                  <img src="assets/media/img/icon/favorite.svg" alt="" />
-                  <span>Избранное</span>
-                </a>
-                <a href="cart.html">
-                  <img src="assets/media/img/icon/cart.svg" alt="" />
-                  <span>Карзина</span>
-                </a>
-                <button class="menu_btn">
-                  <img src="assets/media/img/icon/menu.svg" alt="" />
-                  <span>Меню</span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="bottom-header">
-            <div class="header_menu">
-              <div class="menu_catalog">
-                <button>
-                  <img
-                    src="assets/media/img/icon/catalog.svg"
-                    alt="Каталог Двой дом"
-                  />
-                  <span>Каталог</span>
-                </button>
-                <nav class="catalog-menu">
-                  <ul>
-                    <li class="has_children">
-                      <a href="#"
-                        ><img
-                          src="assets/media/img/icon/fan.svg"
-                          alt=""
-                        />Вентиляция</a
-                      >
-                      <div class="sub-menu">
-                        <ul>
-                          <strong>Категория 1</strong>
-                          <li>
-                            <a href="single.php"
-                              >Полипропиленовые и фитинги Firat</a
-                            >
-                          </li>
-                          <li>
-                            <a href="single.php"
-                              >Полипропиленовые и фитинги Firat</a
-                            >
-                          </li>
-                          <li>
-                            <a href="single.php"
-                              >Полипропиленовые и фитинги Firat</a
-                            >
-                          </li>
-                          <li>
-                            <a href="single.php"
-                              >Полипропиленовые и фитинги Firat</a
-                            >
-                          </li>
-                        </ul>
-                        <ul>
-                          <strong>Категория 2</strong>
-                          <li>
-                            <a href="single.php"
-                              >Полипропиленовые и фитинги Firat</a
-                            >
-                          </li>
-                          <li>
-                            <a href="single.php"
-                              >Полипропиленовые и фитинги Firat</a
-                            >
-                          </li>
-                          <li>
-                            <a href="single.php"
-                              >Полипропиленовые и фитинги Firat</a
-                            >
-                          </li>
-                          <li>
-                            <a href="single.php"
-                              >Полипропиленовые и фитинги Firat</a
-                            >
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li class="has_children">
-                      <a href="#"
-                        ><img src="assets/media/img/icon/door.svg" alt="" />Окна
-                        и двери</a
-                      >
-                      <div class="sub-menu">
-                        <ul>
-                          <strong>Категория 1</strong>
-                          <li><a href="single.php">Окна и двери</a></li>
-                          <li><a href="single.php">Окна и двери</a></li>
-                          <li><a href="single.php">Окна и двери</a></li>
-                          <li><a href="single.php">Окна и двери</a></li>
-                        </ul>
-                        <ul>
-                          <strong>Категория 2</strong>
-                          <li><a href="single.php">Крепежи</a></li>
-                          <li><a href="single.php">Крепежи</a></li>
-                          <li><a href="single.php">Крепежи</a></li>
-                          <li><a href="single.php">Крепежи</a></li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img
-                          src="assets/media/img/icon/material.svg"
-                          alt=""
-                        />Метериалы</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img
-                          src="assets/media/img/icon/santechnika.svg"
-                          alt=""
-                        />Сантехника</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img
-                          src="assets/media/img/icon/elektrotovary.svg"
-                          alt=""
-                        />Электро товары</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><img
-                          src="assets/media/img/icon/rentinstrument.svg"
-                          alt=""
-                        />Аренда инструментов</a
-                      >
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-              <div class="main-menu">
-                <nav>
-                  <ul>
-                    <li><a href="#">Акции</a></li>
-                    <li><a href="#">Стройматериалы</a></li>
-                    <li><a href="#">Инструменты</a></li>
-                    <li><a href="#">Сантехника</a></li>
-                    <li><a href="#">Электро товары</a></li>
-                    <li><a href="#">Аренда инструментов</a></li>
-                  </ul>
-                </nav>
-                <div class="main_slider">
-                  <section class="home_slider splide">
-                    <div class="splide__track">
-                      <ul class="splide__list">
-                        <li class="splide__slide">
-                          <div class="slide-card">
-                            <div class="img">
-                              <img
-                                src="assets/media/img/content/main-slide.png"
-                                alt=""
-                              />
-                            </div>
-                            <div class="content">
-                              <div class="slide_text">
-                                <h2>Все что нужно для строительство</h2>
-                                <p>Доставка по городу бесплатно</p>
-                              </div>
-                              <div class="slide_button">
-                                <a href="#">Перейти</a>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="splide__slide">
-                          <div class="slide-card">
-                            <div class="img">
-                              <img
-                                src="assets/media/img/content/main-slide.png"
-                                alt=""
-                              />
-                            </div>
-                            <div class="content">
-                              <div class="slide_text">
-                                <h2>Аренда инструментов</h2>
-                                <p>
-                                  арендуйте у нас инструменты по выгодным ценам
-                                </p>
-                              </div>
-                              <div class="slide_button">
-                                <a href="#">Перейти</a>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </section>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+	<body>
+		<header>
+			<div class="wrapper">
+				<div class="container">
+					<div class="top_header">
+						<div class="top_header__left">
+							<div class="icon">
+								<img src="assets/media/img/icon/pin.svg" alt="" />
+							</div>
+							<div class="country_list">
+								<select name="top_header_country" id="">
+									<option value="">Бишкек</option>
+									<option value="">Нарын</option>
+									<option value="">Талас</option>
+								</select>
+							</div>
+						</div>
+						<div class="header_logo">
+							<a href="index.html">
+								<img src="assets/media/img/content/logo.svg" alt="Tvoi Dom" />
+							</a>
+						</div>
+						<div class="favorite-card-menu">
+							<a href="favorite.php">
+								<img src="assets/media/img/icon/favorite.svg" alt="" />
+								<span>Избранное</span>
+							</a>
+							<a href="cart.html">
+								<img src="assets/media/img/icon/cart.svg" alt="" />
+								<span>Карзина</span>
+							</a>
+							<button class="menu_btn">
+								<img src="assets/media/img/icon/menu.svg" alt="" />
+								<span>Меню</span>
+							</button>
+						</div>
+						<div class="top_header__right">
+							<a href="#"> г.Кара-Балта ул. Ленина 32 </a>
+							<a href="mailto:info@tvoibom.kg"> info@tvoibom.kg </a>
+							<a href="tel:"> +996(505)32-32-32 </a>
+							<a href="#">Остались вопросы?</a>
+						</div>
+					</div>
+					<div class="header">
+						<div class="header_logo">
+							<a href="index.html">
+								<img src="assets/media/img/content/logo.svg" alt="Tvoi Dom" />
+								<p>Все для строительства и отделки: аренда инструмента, качественные стройматериалы и сантехника для вашего проекта.</p>
+							</a>
+						</div>
+						<div class="right-block">
+							<button>
+								<img src="assets/media/img/icon/catalog.svg" alt="Каталог Двой дом" />
+								<span>Каталог</span>
+							</button>
+							<div class="header-search">
+								<form action="">
+									<input type="search" class="header_search_field" placeholder="Напиши названия товара" />
+									<button>
+										<img src="assets/media/img/icon/search.svg" alt="" />
+									</button>
+								</form>
+							</div>
+							<div class="favorite-card-menu">
+								<a href="favorite.php">
+									<img src="assets/media/img/icon/favorite.svg" alt="" />
+									<span>Избранное</span>
+								</a>
+								<a href="cart.html">
+									<img src="assets/media/img/icon/cart.svg" alt="" />
+									<span>Карзина</span>
+								</a>
+								<button class="menu_btn">
+									<img src="assets/media/img/icon/menu.svg" alt="" />
+									<span>Меню</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="bottom-header">
+						<div class="header_menu">
+							<div class="menu_catalog">
+								<button>
+									<img src="assets/media/img/icon/catalog.svg" alt="Каталог Двой дом" />
+									<span>Каталог</span>
+								</button>
+								<nav class="catalog-menu">
+									<ul>
+										<li class="has_children">
+											<a href="#"><img src="assets/media/img/icon/fan.svg" alt="" />Вентиляция</a>
+											<div class="sub-menu">
+												<ul>
+													<strong>Категория 1</strong>
+													<li>
+														<a href="single.php">Полипропиленовые и фитинги Firat</a>
+													</li>
+													<li>
+														<a href="single.php">Полипропиленовые и фитинги Firat</a>
+													</li>
+													<li>
+														<a href="single.php">Полипропиленовые и фитинги Firat</a>
+													</li>
+													<li>
+														<a href="single.php">Полипропиленовые и фитинги Firat</a>
+													</li>
+												</ul>
+												<ul>
+													<strong>Категория 2</strong>
+													<li>
+														<a href="single.php">Полипропиленовые и фитинги Firat</a>
+													</li>
+													<li>
+														<a href="single.php">Полипропиленовые и фитинги Firat</a>
+													</li>
+													<li>
+														<a href="single.php">Полипропиленовые и фитинги Firat</a>
+													</li>
+													<li>
+														<a href="single.php">Полипропиленовые и фитинги Firat</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li class="has_children">
+											<a href="#"><img src="assets/media/img/icon/door.svg" alt="" />Окна и двери</a>
+											<div class="sub-menu">
+												<ul>
+													<strong>Категория 1</strong>
+													<li><a href="single.php">Окна и двери</a></li>
+													<li><a href="single.php">Окна и двери</a></li>
+													<li><a href="single.php">Окна и двери</a></li>
+													<li><a href="single.php">Окна и двери</a></li>
+												</ul>
+												<ul>
+													<strong>Категория 2</strong>
+													<li><a href="single.php">Крепежи</a></li>
+													<li><a href="single.php">Крепежи</a></li>
+													<li><a href="single.php">Крепежи</a></li>
+													<li><a href="single.php">Крепежи</a></li>
+												</ul>
+											</div>
+										</li>
+										<li>
+											<a href="#"><img src="assets/media/img/icon/material.svg" alt="" />Метериалы</a>
+										</li>
+										<li>
+											<a href="#"><img src="assets/media/img/icon/santechnika.svg" alt="" />Сантехника</a>
+										</li>
+										<li>
+											<a href="#"><img src="assets/media/img/icon/elektrotovary.svg" alt="" />Электро товары</a>
+										</li>
+										<li>
+											<a href="#"><img src="assets/media/img/icon/rentinstrument.svg" alt="" />Аренда инструментов</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div class="main-menu">
+								<nav>
+									<ul>
+										<li><a href="#">Акции</a></li>
+										<li><a href="#">Стройматериалы</a></li>
+										<li><a href="#">Инструменты</a></li>
+										<li><a href="#">Сантехника</a></li>
+										<li><a href="#">Электро товары</a></li>
+										<li><a href="#">Аренда инструментов</a></li>
+									</ul>
+								</nav>
+								<div class="main_slider">
+									<section class="home_slider splide">
+										<div class="splide__track">
+											<ul class="splide__list">
+												<li class="splide__slide">
+													<div class="slide-card">
+														<div class="img">
+															<img src="assets/media/img/content/main-slide.png" alt="" />
+														</div>
+														<div class="content">
+															<div class="slide_text">
+																<h2>Все что нужно для строительство</h2>
+																<p>Доставка по городу бесплатно</p>
+															</div>
+															<div class="slide_button">
+																<a href="#">Перейти</a>
+															</div>
+														</div>
+													</div>
+												</li>
+												<li class="splide__slide">
+													<div class="slide-card">
+														<div class="img">
+															<img src="assets/media/img/content/main-slide.png" alt="" />
+														</div>
+														<div class="content">
+															<div class="slide_text">
+																<h2>Аренда инструментов</h2>
+																<p>арендуйте у нас инструменты по выгодным ценам</p>
+															</div>
+															<div class="slide_button">
+																<a href="#">Перейти</a>
+															</div>
+														</div>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</section>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 
-    <section class="action-services">
-      <div class="wrapper">
-        <div class="container">
-          <section class="services_slider splide">
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="content">
-                      <div class="slide_text">
-                        <strong
-                          >Покупайте у нас строительные смеси по выгодным
-                          ценам</strong
-                        >
-                      </div>
-                      <div class="slide_button">
-                        <a href="#"
-                          >Перейти
-                          <ion-icon name="arrow-forward-outline"></ion-icon
-                        ></a>
-                      </div>
-                    </div>
-                    <div class="img">
-                      <img src="assets/media/img/content/akfix.png" alt="" />
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="content">
-                      <div class="slide_text">
-                        <strong
-                          >Пожалуйста, выберите магазин, который находится ближе
-                          к вам.</strong
-                        >
-                      </div>
-                      <div class="slide_button">
-                        <a href="#"
-                          >Посмотреть на карте
-                          <ion-icon name="arrow-forward-outline"></ion-icon
-                        ></a>
-                      </div>
-                    </div>
-                    <div class="img">
-                      <img src="assets/media/img/content/location.png" alt="" />
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="content">
-                      <div class="slide_text">
-                        <strong
-                          >Условия аренды инструментов: важная информация для
-                          клиентов</strong
-                        >
-                      </div>
-                      <div class="slide_button">
-                        <a href="#"
-                          >Узнать подробнее
-                          <ion-icon name="arrow-forward-outline"></ion-icon
-                        ></a>
-                      </div>
-                    </div>
-                    <div class="img">
-                      <img src="assets/media/img/content/mohitto.png" alt="" />
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </section>
-        </div>
-      </div>
-    </section>
+		<section class="action-services">
+			<div class="wrapper">
+				<div class="container">
+					<section class="services_slider splide">
+						<div class="splide__track">
+							<ul class="splide__list">
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="content">
+											<div class="slide_text">
+												<strong>Покупайте у нас строительные смеси по выгодным ценам</strong>
+											</div>
+											<div class="slide_button">
+												<a href="#">Перейти <ion-icon name="arrow-forward-outline"></ion-icon></a>
+											</div>
+										</div>
+										<div class="img">
+											<img src="assets/media/img/content/akfix.png" alt="" />
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="content">
+											<div class="slide_text">
+												<strong>Пожалуйста, выберите магазин, который находится ближе к вам.</strong>
+											</div>
+											<div class="slide_button">
+												<a href="#">Посмотреть на карте <ion-icon name="arrow-forward-outline"></ion-icon></a>
+											</div>
+										</div>
+										<div class="img">
+											<img src="assets/media/img/content/location.png" alt="" />
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="content">
+											<div class="slide_text">
+												<strong>Условия аренды инструментов: важная информация для клиентов</strong>
+											</div>
+											<div class="slide_button">
+												<a href="#">Узнать подробнее <ion-icon name="arrow-forward-outline"></ion-icon></a>
+											</div>
+										</div>
+										<div class="img">
+											<img src="assets/media/img/content/mohitto.png" alt="" />
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
 
-    <section class="total-sale">
-      <div class="wrapper">
-        `
-        <div class="container">
-          <div class="title">
-            <h2>Хиты продаж</h2>
-          </div>
-          <section class="total-sale-slider splide">
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </section>
-        </div>
-      </div>
-    </section>
+		<section class="total-sale">
+			<div class="wrapper">
+				`
+				<div class="container">
+					<div class="title">
+						<h2>Хиты продаж</h2>
+					</div>
+					<section class="total-sale-slider splide">
+						<div class="splide__track">
+							<ul class="splide__list">
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
 
-    <section class="action-1">
-      <div class="wrapper">
-        <div class="container">
-          <div class="action-block">
-            <div class="block-title">
-              <h2>
-                Ваш партнер в строительстве: лучшие материалы и инструменты
-              </h2>
-              <p>
-                Огромный выбор строительных материалов по выгодным ценам.
-                Быстрая доставка и качественный сервис.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+		<section class="action-1">
+			<div class="wrapper">
+				<div class="container">
+					<div class="action-block">
+						<div class="block-title">
+							<h2>Ваш партнер в строительстве: лучшие материалы и инструменты</h2>
+							<p>Огромный выбор строительных материалов по выгодным ценам. Быстрая доставка и качественный сервис.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <section class="popular-sale">
-      <div class="wrapper">
-        <div class="container">
-          <div class="title">
-            <h2>Популярные товары</h2>
-          </div>
-          <section class="popular-sale-slider splide">
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="slide-card">
-                    <div class="single-product-card">
-                      <div class="img">
-                        <a href="single-product.php">
-                          <img
-                            src="assets/media/img/content/product.png"
-                            alt=""
-                          />
-                          <div class="text">
-                            <span class="product_price">354c-456c</span>
-                            <strong class="product_title"
-                              >Вентилятор осевой канальный ЭРА E 125 S</strong
-                            >
-                          </div>
-                        </a>
-                      </div>
-                      <div class="text">
-                        <div class="product_raiting">
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <img src="assets/media/img/icon/star.svg" alt="" />
-                          <span class="raiting-num">5.0</span>
-                        </div>
-                        <div class="product_whatsapp">
-                          <a href="https:/wa.me/+996555004494">
-                            <ion-icon name="logo-whatsapp"></ion-icon>
-                            <span>Заказать по WhatsApp</span>
-                          </a>
-                        </div>
-                        <div class="product_cart-btn">
-                          <a href="#">
-                            <img
-                              src="assets/media/img/icon/cart-btn.svg"
-                              alt=""
-                            />
-                            <span>В карзину</span>
-                          </a>
-                          <button>
-                            <img
-                              src="assets/media/img/icon/favorite-btn.svg"
-                              alt=""
-                            />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </section>
-        </div>
-      </div>
-    </section>
+		<section class="popular-sale">
+			<div class="wrapper">
+				<div class="container">
+					<div class="title">
+						<h2>Популярные товары</h2>
+					</div>
+					<section class="popular-sale-slider splide">
+						<div class="splide__track">
+							<ul class="splide__list">
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="slide-card">
+										<div class="single-product-card">
+											<div class="img">
+												<a href="single-product.html">
+													<img src="assets/media/img/content/product.png" alt="" />
+													<div class="text">
+														<span class="product_price">354c-456c</span>
+														<strong class="product_title">Вентилятор осевой канальный ЭРА E 125 S</strong>
+													</div>
+												</a>
+											</div>
+											<div class="text">
+												<div class="product_raiting">
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<img src="assets/media/img/icon/star.svg" alt="" />
+													<span class="raiting-num">5.0</span>
+												</div>
+												<div class="product_whatsapp">
+													<a href="https:/wa.me/+996555004494">
+														<ion-icon name="logo-whatsapp"></ion-icon>
+														<span>Заказать по WhatsApp</span>
+													</a>
+												</div>
+												<div class="product_cart-btn">
+													<a href="#">
+														<img src="assets/media/img/icon/cart-btn.svg" alt="" />
+														<span>В карзину</span>
+													</a>
+													<button>
+														<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
 
-    <section class="rent-inc-container">
-      <div class="wrapper">
-        <div class="container">
-          <div class="rent-block">
-            <div class="block-title">
-              <div class="left">
-                <h2>Аренда инструментов на выгодных условиях!</h2>
-                <p>
-                  Нужен инструмент для разовой работы? Воспользуйтесь нашими
-                  услугами аренды! Широкий выбор, доступные цены и гибкие
-                  условия. Быстро, удобно и без лишних затрат!
-                </p>
-              </div>
-              <div class="right">
-                <a href="rent-ins.php"
-                  >Все инструменты
-                  <ion-icon name="arrow-forward-outline"></ion-icon
-                ></a>
-              </div>
-            </div>
-            <div class="instrument-lists">
-              <div class="big">
-                <div class="list">
-                  <img src="assets/media/img/content/rent-1.jpg" alt="" />
-                </div>
-              </div>
-              <div class="small">
-                <div class="list">
-                  <img src="assets/media/img/content/rent-2.jpg" alt="" />
-                </div>
-                <div class="list">
-                  <img src="assets/media/img/content/rent-2.jpg" alt="" />
-                </div>
-                <div class="list">
-                  <img src="assets/media/img/content/rent-2.jpg" alt="" />
-                </div>
-                <div class="list">
-                  <img src="assets/media/img/content/rent-2.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+		<section class="rent-inc-container">
+			<div class="wrapper">
+				<div class="container">
+					<div class="rent-block">
+						<div class="block-title">
+							<div class="left">
+								<h2>Аренда инструментов на выгодных условиях!</h2>
+								<p>Нужен инструмент для разовой работы? Воспользуйтесь нашими услугами аренды! Широкий выбор, доступные цены и гибкие условия. Быстро, удобно и без лишних затрат!</p>
+							</div>
+							<div class="right">
+								<a href="rent-ins.php">Все инструменты <ion-icon name="arrow-forward-outline"></ion-icon></a>
+							</div>
+						</div>
+						<div class="instrument-lists">
+							<div class="big">
+								<div class="list">
+									<img src="assets/media/img/content/rent-1.jpg" alt="" />
+								</div>
+							</div>
+							<div class="small">
+								<div class="list">
+									<img src="assets/media/img/content/rent-2.jpg" alt="" />
+								</div>
+								<div class="list">
+									<img src="assets/media/img/content/rent-2.jpg" alt="" />
+								</div>
+								<div class="list">
+									<img src="assets/media/img/content/rent-2.jpg" alt="" />
+								</div>
+								<div class="list">
+									<img src="assets/media/img/content/rent-2.jpg" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <section class="popular-product-second">
-      <div class="wrapper">
-        <div class="container">
-          <div class="title">
-            <h2>Популярные товары</h2>
-          </div>
-          <div class="product-lists">
-            <div class="list">
-              <div class="img">
-                <img src="assets/media/img/content/product.png" alt="" />
-              </div>
-              <div class="content">
-                <a href="single-product.php">
-                  <div class="category">
-                    <span>Вентиляция</span>
-                  </div>
-                  <div class="text">
-                    <p>Вентилятор осевой канальный ЭРА E 125 S</p>
-                    <strong>354 с - 456 c</strong>
-                  </div>
-                  <div class="raiting">
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <span>4.4</span>
-                  </div>
-                </a>
-              </div>
-              <div class="action-btn">
-                <button>
-                  <img src="assets/media/img/icon/favorite-btn.svg" alt="" />
-                </button>
-                <a href="#">
-                  <img src="assets/media/img/icon/cart-second.svg" alt="" />
-                </a>
-              </div>
-            </div>
-            <div class="list">
-              <div class="img">
-                <img src="assets/media/img/content/product.png" alt="" />
-              </div>
-              <div class="content">
-                <a href="single-product.php">
-                  <div class="category">
-                    <span>Вентиляция</span>
-                  </div>
-                  <div class="text">
-                    <p>Вентилятор осевой канальный ЭРА E 125 S</p>
-                    <strong>354 с - 456 c</strong>
-                  </div>
-                  <div class="raiting">
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <span>4.4</span>
-                  </div>
-                </a>
-              </div>
-              <div class="action-btn">
-                <button>
-                  <img src="assets/media/img/icon/favorite-btn.svg" alt="" />
-                </button>
-                <a href="#">
-                  <img src="assets/media/img/icon/cart-second.svg" alt="" />
-                </a>
-              </div>
-            </div>
-            <div class="list">
-              <div class="img">
-                <img src="assets/media/img/content/product.png" alt="" />
-              </div>
-              <div class="content">
-                <a href="single-product.php">
-                  <div class="category">
-                    <span>Вентиляция</span>
-                  </div>
-                  <div class="text">
-                    <p>Вентилятор осевой канальный ЭРА E 125 S</p>
-                    <strong>354 с - 456 c</strong>
-                  </div>
-                  <div class="raiting">
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <span>4.4</span>
-                  </div>
-                </a>
-              </div>
-              <div class="action-btn">
-                <button>
-                  <img src="assets/media/img/icon/favorite-btn.svg" alt="" />
-                </button>
-                <a href="#">
-                  <img src="assets/media/img/icon/cart-second.svg" alt="" />
-                </a>
-              </div>
-            </div>
-            <div class="list">
-              <div class="img">
-                <img src="assets/media/img/content/product.png" alt="" />
-              </div>
-              <div class="content">
-                <a href="single-product.php">
-                  <div class="category">
-                    <span>Вентиляция</span>
-                  </div>
-                  <div class="text">
-                    <p>Вентилятор осевой канальный ЭРА E 125 S</p>
-                    <strong>354 с - 456 c</strong>
-                  </div>
-                  <div class="raiting">
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <span>4.4</span>
-                  </div>
-                </a>
-              </div>
-              <div class="action-btn">
-                <button>
-                  <img src="assets/media/img/icon/favorite-btn.svg" alt="" />
-                </button>
-                <a href="#">
-                  <img src="assets/media/img/icon/cart-second.svg" alt="" />
-                </a>
-              </div>
-            </div>
-            <div class="list">
-              <div class="img">
-                <img src="assets/media/img/content/product.png" alt="" />
-              </div>
-              <div class="content">
-                <a href="single-product.php">
-                  <div class="category">
-                    <span>Вентиляция</span>
-                  </div>
-                  <div class="text">
-                    <p>Вентилятор осевой канальный ЭРА E 125 S</p>
-                    <strong>354 с - 456 c</strong>
-                  </div>
-                  <div class="raiting">
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <span>4.4</span>
-                  </div>
-                </a>
-              </div>
-              <div class="action-btn">
-                <button>
-                  <img src="assets/media/img/icon/favorite-btn.svg" alt="" />
-                </button>
-                <a href="#">
-                  <img src="assets/media/img/icon/cart-second.svg" alt="" />
-                </a>
-              </div>
-            </div>
-            <div class="list">
-              <div class="img">
-                <img src="assets/media/img/content/product.png" alt="" />
-              </div>
-              <div class="content">
-                <a href="single-product.php">
-                  <div class="category">
-                    <span>Вентиляция</span>
-                  </div>
-                  <div class="text">
-                    <p>Вентилятор осевой канальный ЭРА E 125 S</p>
-                    <strong>354 с - 456 c</strong>
-                  </div>
-                  <div class="raiting">
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <img src="assets/media/img/icon/star.svg" alt="" />
-                    <span>4.4</span>
-                  </div>
-                </a>
-              </div>
-              <div class="action-btn">
-                <button>
-                  <img src="assets/media/img/icon/favorite-btn.svg" alt="" />
-                </button>
-                <a href="#">
-                  <img src="assets/media/img/icon/cart-second.svg" alt="" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+		<section class="popular-product-second">
+			<div class="wrapper">
+				<div class="container">
+					<div class="title">
+						<h2>Популярные товары</h2>
+					</div>
+					<div class="product-lists">
+						<div class="list">
+							<div class="img">
+								<img src="assets/media/img/content/product.png" alt="" />
+							</div>
+							<div class="content">
+								<a href="single-product.html">
+									<div class="category">
+										<span>Вентиляция</span>
+									</div>
+									<div class="text">
+										<p>Вентилятор осевой канальный ЭРА E 125 S</p>
+										<strong>354 с - 456 c</strong>
+									</div>
+									<div class="raiting">
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<span>4.4</span>
+									</div>
+								</a>
+							</div>
+							<div class="action-btn">
+								<button>
+									<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+								</button>
+								<a href="#">
+									<img src="assets/media/img/icon/cart-second.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="list">
+							<div class="img">
+								<img src="assets/media/img/content/product.png" alt="" />
+							</div>
+							<div class="content">
+								<a href="single-product.html">
+									<div class="category">
+										<span>Вентиляция</span>
+									</div>
+									<div class="text">
+										<p>Вентилятор осевой канальный ЭРА E 125 S</p>
+										<strong>354 с - 456 c</strong>
+									</div>
+									<div class="raiting">
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<span>4.4</span>
+									</div>
+								</a>
+							</div>
+							<div class="action-btn">
+								<button>
+									<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+								</button>
+								<a href="#">
+									<img src="assets/media/img/icon/cart-second.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="list">
+							<div class="img">
+								<img src="assets/media/img/content/product.png" alt="" />
+							</div>
+							<div class="content">
+								<a href="single-product.html">
+									<div class="category">
+										<span>Вентиляция</span>
+									</div>
+									<div class="text">
+										<p>Вентилятор осевой канальный ЭРА E 125 S</p>
+										<strong>354 с - 456 c</strong>
+									</div>
+									<div class="raiting">
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<span>4.4</span>
+									</div>
+								</a>
+							</div>
+							<div class="action-btn">
+								<button>
+									<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+								</button>
+								<a href="#">
+									<img src="assets/media/img/icon/cart-second.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="list">
+							<div class="img">
+								<img src="assets/media/img/content/product.png" alt="" />
+							</div>
+							<div class="content">
+								<a href="single-product.html">
+									<div class="category">
+										<span>Вентиляция</span>
+									</div>
+									<div class="text">
+										<p>Вентилятор осевой канальный ЭРА E 125 S</p>
+										<strong>354 с - 456 c</strong>
+									</div>
+									<div class="raiting">
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<span>4.4</span>
+									</div>
+								</a>
+							</div>
+							<div class="action-btn">
+								<button>
+									<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+								</button>
+								<a href="#">
+									<img src="assets/media/img/icon/cart-second.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="list">
+							<div class="img">
+								<img src="assets/media/img/content/product.png" alt="" />
+							</div>
+							<div class="content">
+								<a href="single-product.html">
+									<div class="category">
+										<span>Вентиляция</span>
+									</div>
+									<div class="text">
+										<p>Вентилятор осевой канальный ЭРА E 125 S</p>
+										<strong>354 с - 456 c</strong>
+									</div>
+									<div class="raiting">
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<span>4.4</span>
+									</div>
+								</a>
+							</div>
+							<div class="action-btn">
+								<button>
+									<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+								</button>
+								<a href="#">
+									<img src="assets/media/img/icon/cart-second.svg" alt="" />
+								</a>
+							</div>
+						</div>
+						<div class="list">
+							<div class="img">
+								<img src="assets/media/img/content/product.png" alt="" />
+							</div>
+							<div class="content">
+								<a href="single-product.html">
+									<div class="category">
+										<span>Вентиляция</span>
+									</div>
+									<div class="text">
+										<p>Вентилятор осевой канальный ЭРА E 125 S</p>
+										<strong>354 с - 456 c</strong>
+									</div>
+									<div class="raiting">
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<img src="assets/media/img/icon/star.svg" alt="" />
+										<span>4.4</span>
+									</div>
+								</a>
+							</div>
+							<div class="action-btn">
+								<button>
+									<img src="assets/media/img/icon/favorite-btn.svg" alt="" />
+								</button>
+								<a href="#">
+									<img src="assets/media/img/icon/cart-second.svg" alt="" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <section class="brends">
-      <div class="wrapper">
-        <div class="container">
-          <div class="title">
-            <h2>Бренды</h2>
-          </div>
-          <section class="brends_slide splide">
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide">
-                  <img src="assets/media/img/content/brends.png" alt="" />
-                </li>
-                <li class="splide__slide">
-                  <img src="assets/media/img/content/brends.png" alt="" />
-                </li>
-                <li class="splide__slide">
-                  <img src="assets/media/img/content/brends.png" alt="" />
-                </li>
-                <li class="splide__slide">
-                  <img src="assets/media/img/content/brends.png" alt="" />
-                </li>
-                <li class="splide__slide">
-                  <img src="assets/media/img/content/brends.png" alt="" />
-                </li>
-                <li class="splide__slide">
-                  <img src="assets/media/img/content/brends.png" alt="" />
-                </li>
-                <li class="splide__slide">
-                  <img src="assets/media/img/content/brends.png" alt="" />
-                </li>
-                <li class="splide__slide">
-                  <img src="assets/media/img/content/brends.png" alt="" />
-                </li>
-                <li class="splide__slide">
-                  <img src="assets/media/img/content/brends.png" alt="" />
-                </li>
-              </ul>
-            </div>
-          </section>
-        </div>
-      </div>
-    </section>
-    <footer>
-      <div class="wrapper">
-        <div class="container">
-          <div class="footer">
-            <div class="logo">
-              <a href="index.html">
-                <img src="assets/media/img/content/logo-white.png" alt="" />
-              </a>
-              <p>
-                Все для строительства и отделки: аренда инструмента,
-                качественные стройматериалы и сантехника для вашего проекта.
-              </p>
-              <div class="contacts-adress">
-                <ul>
-                  <li>
-                    <a href=""
-                      ><ion-icon name="location-outline"></ion-icon>
-                      <span>г.Кара-Балта,ул.Жайыл-Баатыра, 64</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="tel:0558333-222"
-                      ><ion-icon name="call-outline"></ion-icon>
-                      <span>0(558)333-222</span></a
-                    >
-                  </li>
-                </ul>
-                <ul>
-                  <li>
-                    <a href="#"
-                      ><ion-icon name="location-outline"></ion-icon>
-                      <span>г.Кара-Балта,ул.Жайыл-Баатыра, 64</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="tel:0558333-222"
-                      ><ion-icon name="call-outline"></ion-icon>
-                      <span>0(558)333-222</span></a
-                    >
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="menus">
-              <div class="menu">
-                <strong>Меню</strong>
-                <ul>
-                  <li><a href="index.html">Главная</a></li>
-                  <li><a href="shop.php">Магазин</a></li>
-                  <li><a href="contacts.php">Контакты</a></li>
-                  <li><a href="about.php">О нас</a></li>
-                </ul>
-              </div>
-              <div class="menu">
-                <strong>Категории</strong>
-                <ul>
-                  <li><a href="index.html">Вентиляция</a></li>
-                  <li><a href="shop.php">Окна и двери</a></li>
-                  <li><a href="contacts.php">Крепежи</a></li>
-                </ul>
-              </div>
-              <div class="menu">
-                <strong>Покупателям</strong>
-                <ul>
-                  <li><a href="payed.php">Оплата товара</a></li>
-                  <li><a href="delivery.php">Доставка</a></li>
-                  <li><a href="contacts.php">Возврат товара</a></li>
-                  <li>
-                    <a href="privacy-policy.php">Политика конфиденциальности</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="copyright">
-        <div class="container">
-          <p>© 2024 Все права защищены.</p>
-          <ul>
-            <li>
-              <img src="assets/media/img/content/mastercard.png" alt="" />
-            </li>
-            <li><img src="assets/media/img/content/visa.png" alt="" /></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+		<section class="brends">
+			<div class="wrapper">
+				<div class="container">
+					<div class="title">
+						<h2>Бренды</h2>
+					</div>
+					<section class="brends_slide splide">
+						<div class="splide__track">
+							<ul class="splide__list">
+								<li class="splide__slide">
+									<img src="assets/media/img/content/brends.png" alt="" />
+								</li>
+								<li class="splide__slide">
+									<img src="assets/media/img/content/brends.png" alt="" />
+								</li>
+								<li class="splide__slide">
+									<img src="assets/media/img/content/brends.png" alt="" />
+								</li>
+								<li class="splide__slide">
+									<img src="assets/media/img/content/brends.png" alt="" />
+								</li>
+								<li class="splide__slide">
+									<img src="assets/media/img/content/brends.png" alt="" />
+								</li>
+								<li class="splide__slide">
+									<img src="assets/media/img/content/brends.png" alt="" />
+								</li>
+								<li class="splide__slide">
+									<img src="assets/media/img/content/brends.png" alt="" />
+								</li>
+								<li class="splide__slide">
+									<img src="assets/media/img/content/brends.png" alt="" />
+								</li>
+								<li class="splide__slide">
+									<img src="assets/media/img/content/brends.png" alt="" />
+								</li>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="wrapper">
+				<div class="container">
+					<div class="footer">
+						<div class="logo">
+							<a href="index.html">
+								<img src="assets/media/img/content/logo-white.png" alt="" />
+							</a>
+							<p>Все для строительства и отделки: аренда инструмента, качественные стройматериалы и сантехника для вашего проекта.</p>
+							<div class="contacts-adress">
+								<ul>
+									<li>
+										<a href=""><ion-icon name="location-outline"></ion-icon> <span>г.Кара-Балта,ул.Жайыл-Баатыра, 64</span></a>
+									</li>
+									<li>
+										<a href="tel:0558333-222"><ion-icon name="call-outline"></ion-icon> <span>0(558)333-222</span></a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#"><ion-icon name="location-outline"></ion-icon> <span>г.Кара-Балта,ул.Жайыл-Баатыра, 64</span></a>
+									</li>
+									<li>
+										<a href="tel:0558333-222"><ion-icon name="call-outline"></ion-icon> <span>0(558)333-222</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="menus">
+							<div class="menu">
+								<strong>Меню</strong>
+								<ul>
+									<li><a href="index.html">Главная</a></li>
+									<li><a href="shop.php">Магазин</a></li>
+									<li><a href="contacts.php">Контакты</a></li>
+									<li><a href="about.php">О нас</a></li>
+								</ul>
+							</div>
+							<div class="menu">
+								<strong>Категории</strong>
+								<ul>
+									<li><a href="index.html">Вентиляция</a></li>
+									<li><a href="shop.php">Окна и двери</a></li>
+									<li><a href="contacts.php">Крепежи</a></li>
+								</ul>
+							</div>
+							<div class="menu">
+								<strong>Покупателям</strong>
+								<ul>
+									<li><a href="payed.php">Оплата товара</a></li>
+									<li><a href="delivery.php">Доставка</a></li>
+									<li><a href="contacts.php">Возврат товара</a></li>
+									<li>
+										<a href="privacy-policy.php">Политика конфиденциальности</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="container">
+					<p>© 2024 Все права защищены.</p>
+					<ul>
+						<li>
+							<img src="assets/media/img/content/mastercard.png" alt="" />
+						</li>
+						<li><img src="assets/media/img/content/visa.png" alt="" /></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
 
-    <script
-      type="module"
-      src="https:/unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https:/unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-    <script src="assets/js/splide.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/splide-extension-grid.js"></script>
-    <script src="assets/js/slide.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+		<script type="module" src="https:/unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https:/unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+		<script src="assets/js/splide.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/splide-extension-grid.js"></script>
+		<script src="assets/js/slide.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
 </html>
