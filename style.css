@@ -3373,6 +3373,7 @@ section.bread .wrapper .container .line {
 }
 #checkout .checkout .checkout_data .modals .delivery .delivery_data .address-home {
   display: grid;
+  margin-bottom: 5px;
 }
 #checkout .checkout .checkout_data .modals .delivery .delivery_data .address-home .address_list {
   width: 100%;
