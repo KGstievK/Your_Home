@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Твой Дом</title>
-    <link
-      rel="shortcut icon"
-      href="assets/media/img/content/logo.svg"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="assets/css/splide-core.min.css" />
-    <link rel="stylesheet" href="assets/css/splide.min.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-
-  <body>
-    <header class="page">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="assets/css/splide-core.min.css" />
+		<link rel="stylesheet" href="assets/css/splide.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header class="page">
       <div class="wrapper">
         <div class="container">
           <div class="top_header">
@@ -247,161 +243,175 @@
         </div>
       </div>
     </header>
-    <section class="breadcurms">
+		<section class="breadcurms">
       <div class="wrapper">
         <div class="container">
           <a href="index.html">Главная</a>
           <span>/</span>
-          <span>О нас</span>
+          <span>Оформление заказа</span>
         </div>
       </div>
     </section>
-    <section id="checkout">
-      <div class="container">
-        <div class="path">
-          <p>Главная</p>
-          <img src="../assets/Vector (8).svg" alt="" />
-          <p>Оформление заказа</p>
-        </div>
-        <div class="checkout">
-          <div class="checkout_data">
-            <div class="btns">
-              <button>Доставка</button>
-              <button>Самовывоз</button>
-            </div>
-            <div class="modals">
-              <div class="delivery">
-                <div class="delivery_btns">
-                  <button>До дома или квартиры</button>
-                  <button>Через маршрутное такси до автовокзала</button>
-                </div>
+		<section id="checkout">
+			<div class="container">
+				<div class="checkout">
+					<div class="checkout_data">
+						<div class="btns">
+							<button id="delivery">Доставка</button>
+							<button id="pickup">Самовывоз</button>
+						</div>
+						<div class="modals">
+							<div class="delivery">
+								<div id="buttons" class="delivery_btns">
+									<button class="button_first">До дома или квартиры</button>
+									<button class="button_second">Через маршрутное такси до автовокзала</button>
+								</div>
+								<div class="delivery_data">
+									<h3 class="delivery_header"></h3>
+									<div id="delivery-home" class="address address-home">
+										<div class="address_list">
+											<p>Страна</p>
+											<input type="text" />
+										</div>
+										<div class="address_list">
+											<p>Город/Село</p>
+											<select>
+												<option value="">Кара-Балта</option>
+												<option value="">Бишкек</option>
+											</select>
+										</div>
+										<div class="address_list">
+											<p>Улица</p>
+											<input type="text" />
+										</div>
+										<div class="address_list">
+											<p>Дом / квартира</p>
+											<input type="text" />
+										</div>
+									</div>
+									<div id="delivery-station" class="address address-station">
+										<button class="address_list">Бишкек</button>
+										<button class="address_list">Токмок</button>
+										<button class="address_list">Кант</button>
+									</div>
+									<div id="delivery-pickup" class="address">
+										<button class="address_list">г.Кара-Балта,ул.Жайыл-Баатыра, 64/Б</button>
+										<button class="address_list">г.Кара-Балта,.Свердлова, 53/10</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="client_data">
+							<h3>Данные клиента</h3>
+							<div class="info">
+								<div class="info_list">
+									<p>Имя</p>
+									<input type="text" />
+								</div>
+								<div class="info_list">
+									<p>Телефон</p>
+									<input type="text" />
+								</div>
+								<div class="info_list third">
+									<p>Комментарии</p>
+									<textarea type="text"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="checkout_check">
+						<div class="check">
+							<img src="./assets/Логотип (1).svg" alt="" />
+							<p>Список товаров</p>
+							<div class="check_list">
+								<div class="product">
+									<p>Вентилятор осевой канальный ЭРА E 125 S</p>
+									<p>*1</p>
+									<p>352c</p>
+								</div>
+								<div class="product">
+									<p>Вентилятор осевой канальный ЭРА E 15 S</p>
+									<p>*2</p>
+									<p>704с</p>
+								</div>
+								<div class="product">
+									<p>Вентилятор осевой канальный ЭРА E 340 S</p>
+									<p>*1</p>
+									<p>352c</p>
+								</div>
+								<div class="product">
+									<p>Вентилятор осевой канальный ЭРА E 154 S</p>
+									<p>*2</p>
+									<p>704с</p>
+								</div>
+							</div>
+							<div class="result">
+								<h2>Итого</h2>
+								<h2>1056с</h2>
+							</div>
+							<div class="service">
+								<div class="service_list">
+									<p>Доставка</p>
+									<p>650с</p>
+								</div>
+								<div class="service_list">
+									<p>Количество товара</p>
+									<p>4шт</p>
+								</div>
+								<div class="service_list">
+									<p>Сумма товара</p>
+									<p>2112с</p>
+								</div>
+							</div>
+							<div class="payment">
+								<h2>Способ оплаты</h2>
+								<div class="payment_list">
+									<label for="now">
+										<div class="radio">
+											<input id="now" type="radio" name="payment" />
+											<p>Сейчас</p>
+											<div class="icons">
+												<img src="./assets/Frame_4 1.svg" alt="" />
+												<img src="./assets/Vector (16).svg" alt="" />
+												<img src="./assets/logos_mastercard.svg" alt="" />
+											</div>
+										</div>
+									</label>
+									<label for="get">
+										<div class="radio">
+											<input id="get" type="radio" name="payment" />
+											<p>При получении</p>
+										</div>
+									</label>
+								</div>
+							</div>
+							<div class="politika">
+								<p>Вся предоставленная информация будет использоваться исключительно для обработки вашего запроса. Мы гарантируем, что ваши личные данные останутся конфиденциальными и не будут переданы третьим лицам без вашего согласия. <a href=""> Политики конфиденциальности </a></p>
+							</div>
+							<div class="btn">
+								<button>Оформить заказ</button>
+							</div>
+							<div class="contacts">
+								<div class="contact_list">
+									<p>Сайт магазина</p>
+									<p>www.tvoydom.kg</p>
+								</div>
+								<div class="contact_list">
+									<p>Адрес</p>
+									<p>г.Кара-Балта,.Свердлова, 53/10</p>
+								</div>
+								<div class="contact_list">
+									<p>Телефон</p>
+									<p>+996(555)000-000</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-                <!-- Скопируй Это -->
-                <div class="delivery_data3">
-                  <h3>Выберите пунк выдачи</h3>
-                  <div class="address">
-                    <button class="address_list">
-                      г.Кара-Балта,ул.Жайыл-Баатыра, 64/Б магазин “Твой Дом!”
-                    </button>
-                    <button class="address_list">
-                      г.Кара-Балта,.Свердлова, 53/10 магазин “Твой Дом!”
-                    </button>
-                  </div>
-                </div>
-                <!-- Скопируй Это -->
-              </div>
-            </div>
-            <div class="client_data">
-              <h3>Данные клиента</h3>
-              <div class="info">
-                <div class="info_list">
-                  <p>Имя</p>
-                  <input type="text" />
-                </div>
-                <div class="info_list">
-                  <p>Телефон</p>
-                  <input type="text" />
-                </div>
-                <div class="info_list">
-                  <p>Комментария</p>
-                  <textarea type="text"></textarea>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="checkout_check">
-            <div class="check">
-              <img src="./assets/Логотип (1).svg" alt="" />
-              <p>Список товаров</p>
-              <div class="check_list">
-                <div class="product">
-                  <p>Вентилятор осевой канальный ЭРА E 125 S</p>
-                  <p>*1</p>
-                  <p>352c</p>
-                </div>
-                <div class="product">
-                  <p>Вентилятор осевой канальный ЭРА E 15 S</p>
-                  <p>*2</p>
-                  <p>704с</p>
-                </div>
-                <div class="product">
-                  <p>Вентилятор осевой канальный ЭРА E 340 S</p>
-                  <p>*1</p>
-                  <p>352c</p>
-                </div>
-                <div class="product">
-                  <p>Вентилятор осевой канальный ЭРА E 154 S</p>
-                  <p>*2</p>
-                  <p>704с</p>
-                </div>
-              </div>
-              <div class="result">
-                <h2>Итого</h2>
-                <h2>1056с</h2>
-              </div>
-              <div class="service">
-                <div class="service_list">
-                  <p>Доставка</p>
-                  <p>650с</p>
-                </div>
-                <div class="service_list">
-                  <p>Количество товара</p>
-                  <p>4шт</p>
-                </div>
-                <div class="service_list">
-                  <p>Сумма товара</p>
-                  <p>2112с</p>
-                </div>
-              </div>
-              <div class="payment">
-                <h2>Способ оплаты</h2>
-                <div class="payment_list">
-                  <div class="radio">
-                    <input type="radio" /><label>Сейчас</label>
-                    <div class="icons">
-                      <img src="./assets/Frame_4 1.svg" alt="" />
-                      <img src="./assets/Vector (16).svg" alt="" />
-                      <img src="./assets/logos_mastercard.svg" alt="" />
-                    </div>
-                  </div>
-                  <div class="radio">
-                    <input type="radio" /><label>При получении</label>
-                  </div>
-                </div>
-              </div>
-              <div class="politika">
-                <p>
-                  Вся предоставленная информация будет использоваться
-                  исключительно для обработки вашего запроса. Мы гарантируем,
-                  что ваши личные данные останутся конфиденциальными и не будут
-                  переданы третьим лицам без вашего согласия.
-                  <a href=""> Политики конфиденциальности </a>
-                </p>
-              </div>
-              <div class="btn">
-                <button>Оформить заказ</button>
-              </div>
-              <div class="contacts">
-                <div class="contact_list">
-                  <p>Сайт магазина</p>
-                  <p>www.tvoydom.kg</p>
-                </div>
-                <div class="contact_list">
-                  <p>Адрес</p>
-                  <p>г.Кара-Балта,.Свердлова, 53/10</p>
-                </div>
-                <div class="contact_list">
-                  <p>Телефон</p>
-                  <p>+996(555)000-000</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer>
+		<footer>
       <div class="wrapper">
         <div class="container">
           <div class="footer">
@@ -635,18 +645,13 @@
       <div class="answer"></div>
     </div>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
-    <script src="assets/js/splide.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/splide-extension-grid.js"></script>
-    <script src="assets/js/slide.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+		<script src="assets/js/splide.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/splide-extension-grid.js"></script>
+		<script src="assets/js/slide.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/checkout.js"></script>
+	</body>
 </html>
